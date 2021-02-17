@@ -1,17 +1,20 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
+import CustomTimeline from '../Timeline/Timeline'
 import './Profile.css';
 import ProfileImg from '../../assets/image/profile.jpg'
+import resumeData from '../../utils/resumeData';
+import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 
 const Profile = () => {
     return (
         <div className='profile container_shadow'>
             <div className='profile_name'>
                 <Typography className='name'>
-                    Sungpil An
+                    {resumeData.name}
                 </Typography>
                 <Typography className='title'>
-                    Full-Stack Developer
+                    {resumeData.title}
                 </Typography>
             </div>
 
@@ -20,7 +23,7 @@ const Profile = () => {
             </figure>
 
             <div className='profile_information'>
-                Timeline
+                <CustomTimeline />
                 <br />
                 <button>Download CV</button>
             </div>
