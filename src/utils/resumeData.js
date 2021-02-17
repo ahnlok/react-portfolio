@@ -13,27 +13,27 @@ export default {
     location: 'Johns Creek, GA',
 
     socials: {
-        github: {
+        GitHub: {
             link: 'https://github.com/ahnlok',
-            text: 'Github',
+            text: 'MyGithub',
             icon: <GitHubIcon />,
         },
 
-        linkedin: {
+        LinkedIn: {
             link: 'https://www.linkedin.com/in/an-sungpil-95ab8490/',
-            text: 'LinkedIn',
+            text: 'MyLinkedIn',
             icon: <LinkedInIcon />,
         },
 
-        facebook: {
+        Facebook: {
             link: 'https://www.facebook.com/sungpil.an.9',
-            text: 'Facebook',
+            text: 'MyFacebook',
             icon: <FacebookIcon />,
         },
 
-        instagram: {
+        Instagram: {
             link: 'https://www.instagram.com/sung_an_/',
-            text: 'Instagram',
+            text: 'MyInstagram',
             icon: <InstagramIcon />,
         },
     },
