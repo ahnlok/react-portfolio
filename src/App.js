@@ -20,9 +20,9 @@ function App() {
          <Profile />
        </Grid>
       
-       <Grid item xs style={{backgroundColor: 'red'}}>
-         <Header />
+       <Grid item xs>
          <Router>
+         <Header />
            {/* Switch */}
            <Switch>
             {/* Route path for portfolio */}
