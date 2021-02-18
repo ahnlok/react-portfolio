@@ -9,7 +9,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: white;
     overflow-x: hidden;
-    background: lightgoldenrodyellow;
+    background-image: url('./assets/image/sky.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-height: 500px;
 }
 
 code {
