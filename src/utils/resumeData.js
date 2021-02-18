@@ -15,31 +15,31 @@ export default {
     socials: {
         GitHub: {
             link: 'https://github.com/ahnlok',
-            text: 'MyGithub',
+            text: 'Click Here',
             icon: <GitHubIcon />,
         },
 
         LinkedIn: {
             link: 'https://www.linkedin.com/in/an-sungpil-95ab8490/',
-            text: 'MyLinkedIn',
+            text: 'Click Here',
             icon: <LinkedInIcon />,
         },
 
         Facebook: {
             link: 'https://www.facebook.com/sungpil.an.9',
-            text: 'MyFacebook',
+            text: 'Click Here',
             icon: <FacebookIcon />,
         },
 
         Instagram: {
             link: 'https://www.instagram.com/sung_an_/',
-            text: 'MyInstagram',
+            text: 'Click Here',
             icon: <InstagramIcon />,
         },
     },
 
     about:
-        "Greetings, I am an upcoming Full Stack Developer familiar with wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative team player with excellent technical abilities. Also, always eager to learn new programming languages and tools.",       
+        "Greetings, I am an upcoming Full Stack Developer familiar with wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative team player with excellent technical abilities. Also, I am always eager to learn new programming languages and tools.",       
 
     experiences: [
         {
@@ -85,5 +85,43 @@ export default {
             date: 'Aug 2008 - May 2011',
             description: 'Top high school in the state of Georgia in 2010'
         },
+    ],
+
+    skills: [
+        {
+            title: "Front-End",
+            description: [
+                "HTML5",
+                "CSS",
+                "Bootstrap",
+                "Materialize",
+                "Material UI",
+                "Javascript",
+                "React JS",
+            ],
+        },
+        {
+            title: "Back-End",
+            description: [
+                "Node JS",
+                "Python",
+            ],
+        },
+        {
+            title: "Database",
+            description: [
+                "Firebase",
+                "My SQL",
+                "Mongo DB",
+                "AWS",
+            ],
+        },
+        {
+            title: "Source Control",
+            description: [
+                "Git",
+                "GitHub",
+            ]
+        }
     ]
 };
