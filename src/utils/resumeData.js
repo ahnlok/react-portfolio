@@ -37,4 +37,53 @@ export default {
             icon: <InstagramIcon />,
         },
     },
+
+    about:
+        "Greetings, I am an upcoming Full Stack Developer familiar with wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative team player with excellent technical abilities. Also, always eager to learn new programming languages and tools.",       
+
+    experiences: [
+        {
+            title: 'Junior Sous Chef - Wallse',
+            date: 'Nov 2019 - Oct 2020',
+            description: 'Develope seasonal menu items, train new line cooks, and manage protein and sauce sections.'
+        },
+        {
+            title: 'Entremet - Marea',
+            date: 'May 2019 - Nov 2019',
+            description: 'Develope seasonal menu items, train new line cooks, and manage entremet sections.'
+        },
+        {
+            title: 'Chef de Partie - Public Kitchen by Jean-George',
+            date: 'Dec 2017 - May 2019',
+            description: 'Managing team of eight line cooks with sous chefs during the service, create new seasonal menus, and train new line cooks.'
+        },
+        {
+            title: 'Social Media Associate - TIC Restaurant Group',
+            date: 'Jan 2017- Dec 2017',
+            description: 'Managing Facebook, Twitter, Instagram, and Yelp pages of each restaurant, train new interns, and connect with various influencer for social media marketing purpose.'
+        },
+    ],
+
+    educations: [
+        {
+            title: 'Georgia Tech Full-Stack Bootcamp',
+            date: 'Dec 2020 - Mar 2021',
+            description: 'Certificate, Full-Stack Development'
+        },
+        {
+            title: 'Institute of Culinary Education',
+            date: 'Mar 2016 - Oct 2016',
+            description: 'Diploma, Culinary Arts and Restaurant Management'
+        },
+        {
+            title: 'University of Kansas',
+            date: 'Aug 2011 - Dec 2015',
+            description: 'Bachelor, Journalism & History'
+        },
+        {
+            title: 'Columbus Magnet High School',
+            date: 'Aug 2008 - May 2011',
+            description: 'Top high school in the state of Georgia in 2010'
+        },
+    ]
 };

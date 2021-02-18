@@ -23,6 +23,7 @@ function App() {
        <Grid item xs>
          <Router>
          <Header />
+         <div className='main-content container_shadow'>
            {/* Switch */}
            <Switch>
             {/* Route path for portfolio */}
@@ -35,6 +36,7 @@ function App() {
               <Resume />
             </Route>
            </Switch>
+           </div>
          </Router>
 
          <Footer />
