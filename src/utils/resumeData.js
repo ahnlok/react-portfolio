@@ -123,5 +123,7 @@ export default {
                 "GitHub",
             ]
         }
-    ]
+    ],
+
+    address: '10020 Grandview Square',
 };
