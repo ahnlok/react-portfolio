@@ -73,16 +73,16 @@ const Portfolio = () => {
                 </Grid>
             </Grid>
             <Dialog open={projectDialog} onClose={() => setProjectDialog(false)} className='projectDialog'>
-                <DialogTitle onClose={() => setProjectDialog(false)}>
+                <DialogTitle onClose={() => setProjectDialog(false)} className='projectDialog_title'>
                     {projectDialog.title}
                 </DialogTitle> 
-                <img src={projectDialog.image} alt='' />
+                <img src={projectDialog.image} alt='' className='projectDialog_image' />
                 <DialogContent>
                     {projectDialog.description}
                 </DialogContent>
-                <DialogActions>
+                <DialogActions className='projectDialog_actions'>
                     {projectDialog?.links?.map((link) => (
-                        <a href={link.link} target='_blank'>{link.icon}</a>
+                        <a href={link.link} target='_blank' className='projectDialog_icon'>{link.icon}</a>
                     ))}
                 </DialogActions>
             </Dialog>

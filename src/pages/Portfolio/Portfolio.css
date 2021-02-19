@@ -32,16 +32,27 @@
 .customCard .customCard_title {
     font-weight: bold;
     color: var(--main-color);
+    /* text-align: center; */
 }
 
 .customCard .customCard_caption {
     color: gray;
-    font-weight: 500;
+    font-weight: 400;
 }
 /* End of Cards */
 
 /* Dialogs */
-
+.projectDialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+.projectDialog .projectDialog_title {
+    font-weight: bold;
+    text-align: center;
+    color: var(--main-color);
+}
 .projectDialog .projectDialog_image {
     max-height: 300px;
     width: 100%;
@@ -52,6 +63,7 @@
 
 .projectDialog .projectDialog_description {
     margin-top: 10px !important;
+    font-weight: 800;
 }
 
 .projectDialog .projectDialog_actions{
@@ -60,13 +72,15 @@
 }
 
 .projectDialog .projectDialog_icon{
-    color: gray;
+    color: var(--main-color);
     margin: 0px 12px;
     cursor: pointer;
+    justify-content: center !important;
 }
 
 .projectDialog .projectDialog_icon :hover {
-    color: var(--main-color);
+    color: gray;
+   
 }
 
 .projectDialog_icon > .MuiSvgIcon-root {

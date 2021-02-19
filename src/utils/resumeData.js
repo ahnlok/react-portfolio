@@ -136,7 +136,7 @@ export default {
             tag: 'Front-End',
             image: '../images/digital.gif',
             title: 'Digital Coffee',
-            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
+            caption: 'HTML5, CSS(Bootstrap), JQuery, API, AJAX',
             description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
             links: [
                 {link: 'https://ahnlok.github.io/digital-coffee/', icon: <Language />},
@@ -147,41 +147,102 @@ export default {
         {
             // Project 2
             tag: 'Front-End',
-            image:'/digital.gif',
-            title: 'Digital Coffee',
-            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
-            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            image:'../images/bb.gif',
+            title: 'Breaking Bad Character Searcher',
+            caption: 'React, HTML5, CSS, JavaScript, API, AJAX',
+            description: 'This app uses the Breaking Bad API utilizing React hooks. This program allows user to search for their favorite Breaking Bad character information by searching names of the characters. Lastly, this is a practice using the example from the Traversy Media video Breaking Bad API. Video link is in the Credit section of ReadMe.',
             links: [
-                {link: 'https://ahnlok.github.io/digital-coffee/', icon: 'Digital Coffee Page'},
-                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
+                {link: 'https://ahnlok.github.io/breaking-bad-api-react/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/breaking-bad-api-react', icon: <GitHubIcon />},
             ] 
                 
         },
         {
             // Project 3
             tag: 'Back-End',
-            image: '/digital.gif',
-            title: 'Digital Coffee',
-            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
-            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            image: '../images/fit.gif',
+            title: 'Fitness Tracker',
+            caption: 'MongoDB/mongoose',
+            description: 'With the use of MongoDB and Mongoose, this app allows users to track their workout information by "add", "continue", "complete". "see statistics" depends on API paths',
             links: [
-                {link: 'https://ahnlok.github.io/digital-coffee/', icon: 'Digital Coffee Page'},
-                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
+                {link: 'https://pacific-mesa-01605.herokuapp.com/?id=6022b16a5a8abd00150fb5d4', icon: <Language />},
+                {link: 'https://github.com/ahnlok/workout-tracker', icon: <GitHubIcon />},
             ] 
                 
         },
         {   
             // Project 4
-            tag: 'Back-End',
-            image: '/digital.gif',
-            title: 'Digital Coffee',
-            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
-            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            tag: 'Front-End',
+            image: '../images/employeed.gif',
+            title: 'Employee Directory',
+            caption: 'React, HTML5, CSS, JavaScript, API, and AJAX',
+            description: 'With the use of the "Random User API": https://randomuser.me/, This program allows user to search for the employees information by searching employees name',
             links: [
-                {link: 'https://ahnlok.github.io/digital-coffee/', icon: 'Digital Coffee Page'},
-                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
-            ] 
-                
+                {link: 'https://ahnlok.github.io/employee-directory/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/employee-directory', icon: <GitHubIcon />},
+            ]      
+        },
+        {   
+            // Project 5
+            tag: 'Front-End',
+            image: '../images/example.gif',
+            title: '3D Darth Vader Card',
+            caption: 'HTML5, CSS, JavaScript',
+            description: 'This is "3D Darth Vader Card" using HTML5, CSS, and Javascript with the use of "rotate" and "transform" function in Javascript',
+            links: [
+                {link: 'https://ahnlok.github.io/darth-vader-3D-card/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/darth-vader-3D-card', icon: <GitHubIcon />},
+            ]      
+        },
+        {   
+            // Project 6
+            tag: 'Full-Stack',
+            image: '../images/freshdev.gif',
+            title: 'Fresh Dev',
+            caption: 'Node.JS, MySQL, HTML5, CSS, JavaScript, API, AJAX',
+            description: 'Fresh-Dev is a online platform for students to showcase their work and portfolios for recruiters and hiring managers to view and search for base on specific programming languages',
+            links: [
+                {link: 'https://fresh-dev.herokuapp.com/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/fresh-dev', icon: <GitHubIcon />},
+            ]      
+        },
+
+        {   
+            // Project 7
+            tag: 'Back-End',
+            image: '../images/employee.gif',
+            title: 'Employee Management Tracker',
+            caption: 'MySQL(inquirer), Node.JS JavaScript',
+            description: 'This program allows the user to view, add, delete, and update: employee, department, and role.',
+            links: [
+                // {link: 'https://fresh-dev.herokuapp.com/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/employee-tracker', icon: <GitHubIcon />},
+            ]      
+        },
+
+        {   
+            // Project 8
+            tag: 'Full-Stack',
+            image: '../images/notetaker.gif',
+            title: 'Note Taker',
+            caption: 'Node.JS (express), JavaScript, HTML5, CSS',
+            description: 'This program allows the user to write, save, and delete notes.',
+            links: [
+                {link: 'https://infinite-inlet-33096.herokuapp.com/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/note-taker', icon: <GitHubIcon />},
+            ]      
+        },
+        {   
+            // Project 8
+            tag: 'Full-Stack',
+            image: '../images/burger.gif',
+            title: 'Eat Burger',
+            caption: 'Node.JS, MySQL, ORM, Handlebar JavaScript, HTML5, CSS',
+            description: "This program allows user to 'Add' or 'Pick' burgers from the burger list. If the user is decided to 'Eat' the burger, click 'Eat' button, then the user's choice of burger will move to 'Burgers That You Ate' list. Moreover, if the user is full, the user can simply click 'I'm Full' button, then the burger will move back to 'Burger List",
+            links: [
+                {link: 'https://stormy-bayou-11683.herokuapp.com/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/eat-burger', icon: <GitHubIcon />},
+            ]      
         },
     ]
 };
