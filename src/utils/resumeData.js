@@ -3,6 +3,9 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import Language from '@material-ui/icons/Language'
+
+// import Digital from '../assets/image/digital.gif'
 
 export default {
     name: 'Sungpil An',
@@ -126,4 +129,59 @@ export default {
     ],
 
     address: '10020 Grandview Square',
+
+     projects: [
+        {   
+            // Project 1
+            tag: 'Front-End',
+            image: '../images/digital.gif',
+            title: 'Digital Coffee',
+            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
+            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            links: [
+                {link: 'https://ahnlok.github.io/digital-coffee/', icon: <Language />},
+                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
+            ] 
+                
+        },
+        {
+            // Project 2
+            tag: 'Front-End',
+            image:'/digital.gif',
+            title: 'Digital Coffee',
+            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
+            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            links: [
+                {link: 'https://ahnlok.github.io/digital-coffee/', icon: 'Digital Coffee Page'},
+                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
+            ] 
+                
+        },
+        {
+            // Project 3
+            tag: 'Back-End',
+            image: '/digital.gif',
+            title: 'Digital Coffee',
+            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
+            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            links: [
+                {link: 'https://ahnlok.github.io/digital-coffee/', icon: 'Digital Coffee Page'},
+                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
+            ] 
+                
+        },
+        {   
+            // Project 4
+            tag: 'Back-End',
+            image: '/digital.gif',
+            title: 'Digital Coffee',
+            caption: 'HTML5, CSS(Bootstrap), JQuery, API, and AJAX',
+            description: 'Simple API/AJAX project utilizing HTML5/CSS and Jquery to improve blendness of Google Search page with weather information, and randomly generated quotes and images.',
+            links: [
+                {link: 'https://ahnlok.github.io/digital-coffee/', icon: 'Digital Coffee Page'},
+                {link: 'https://github.com/ahnlok/digital-coffee', icon: <GitHubIcon />},
+            ] 
+                
+        },
+    ]
 };

@@ -10,7 +10,9 @@
 .top_30 {
     margin-top: 30px !important;
 }
-
+.mb_20 {
+    margin-bottom: 20px !important;
+}
 .mb_30 {
     margin-bottom: 30px !important;
 }
@@ -24,7 +26,7 @@
 }
 
 .pt_45 {
-    pading-top: 45px !important;
+    padding-top: 45px !important;
 }
 
 .p_50 {

@@ -2,7 +2,7 @@ import { Typography } from '@material-ui/core';
 import React from 'react';
 import CustomTimeline, { CustomTimeLineSeparator } from '../Timeline/Timeline'
 import './Profile.css';
-import ProfileImg from '../../assets/image/profile.jpg'
+import ProfileImg from '../../image/profile.jpg'
 import resumeData from '../../utils/resumeData';
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import TimelineItem from "@material-ui/lab/TimelineItem";
