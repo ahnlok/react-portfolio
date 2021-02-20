@@ -93,9 +93,9 @@ const Resume = () => {
         </Grid>
                         
         {/* Contact */}
-        <Grid container spacing={7} className='section pt_45 pb_45'>
+        {/* <Grid container spacing={7} className='section pt_45 pb_45'> */}
             {/* Contact Form */}
-            <Grid item xs={12} lg={7}>
+            {/* <Grid item xs={12} lg={7}>
                 <Grid container>
                     <Grid item className='section_title mb_30'>
                         <span></span>
@@ -117,10 +117,10 @@ const Resume = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                </Grid>
-            </Grid>
+                </Grid> */}
+            {/* </Grid> */}
             {/* Contact Info */}
-            <Grid item xs={12} lg={5}>
+            {/* <Grid item xs={12} lg={5}>
                 <Grid container>
                     <Grid item className='section_title mb_30'>
                         <span></span>
@@ -130,44 +130,43 @@ const Resume = () => {
                         <Grid container spacing={1}>
                         <Grid item xs={12}>
                             {/* Name */}
-                            <Typography className='contactInfo_item'>
+                            {/* <Typography className='contactInfo_item'>
                                 <span>Sungpil An</span>
                             </Typography>
-                            </Grid>
+                            </Grid> */}
                             {/* Address */}
-                            <Grid item xs={12}>
+                            {/* <Grid item xs={12}>
                                 <Typography className='contactInfo_item'>
                                     <span>Address: </span> {resumeData.address}
                                 </Typography>
-                            </Grid>
+                            </Grid> */}
                             {/* Phone */}
-                            <Grid item xs={12}>
+                            {/* <Grid item xs={12}>
                                 <Typography className='contactInfo_item'>
                                     <span>Phone: </span> {resumeData.phone}
                                 </Typography>
-                            </Grid>
+                            </Grid> */}
                             {/* Email */}
-                            <Grid item xs={12}>
+                            {/* <Grid item xs={12}>
                                 <Typography className='contactInfo_item'>
                                     <span>Email: </span> {resumeData.email}
                                 </Typography>
         
                             </Grid>
-                        </Grid>
-                    </Grid>
+                        </Grid> */}
+                    {/* </Grid>  */}
                     {/* Social Media Icon */}
-                    <Grid item xs={12}>
+                    {/* <Grid item xs={12}>
                         <Grid container className='contactInfo_socialsContainer'>
                             {Object.keys(resumeData.socials).map(key => (<Grid item className='contactInfo_social'>
                                 <a href={resumeData.socials[key].link}>{resumeData.socials[key].icon}</a>
                             </Grid>
                             ))}
                         </Grid>
-                    </Grid>           
-                </Grid>
-            </Grid>
-        </Grid>
-    </>
+                    </Grid>            */}
+                {/* </Grid>  */}
+            {/* </Grid> */}
+        </>
     )
 }
 

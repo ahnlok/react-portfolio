@@ -1,14 +1,16 @@
 import React from 'react'
 import { Button } from '@material-ui/core';
+import resumeData from '../../utils/resumeData';
+
 import './Button.css';
 
 const CustomButton = ({text, icon}) => {
     return (
         <Button className='custom_btn' 
+            link={resumeData.fullResume.link}
             endIcon={
             icon ? <div className='btn_icon_container'>{icon}</div> : null}>
             <span className='btn_text'>{text}</span>
-
         </Button>
     )
 }

@@ -23,7 +23,7 @@ const Portfolio = () => {
                indicatorColor='white' 
                className='customTabs' 
                onChange={(event, newValue) => setTabValue(newValue)}>
-                   <Tab label='All' value='All' className={tabValue == 'All' ? 'cutomTabs_item active' : 'customTabs_item'} />
+                   <Tab label='All' value='All' className={tabValue == 'All' ? 'cus tomTabs_item active' : 'customTabs_item'} />
                    {[...new Set(resumeData.projects.map(item => item.tag))].map(tag => (<Tab 
                    label={tag} 
                    value={tag} 

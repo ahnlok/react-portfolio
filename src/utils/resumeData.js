@@ -14,7 +14,12 @@ export default {
     email: 'ansungpil1@gmail.com',
     phone: '706-987-0141',
     location: 'Johns Creek, GA',
-
+    fullResume: [
+        {
+            link: 'https://zety.com/profile/sungpil-an',
+        }
+    ],
+    
     socials: {
         GitHub: {
             link: 'https://github.com/ahnlok',

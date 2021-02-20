@@ -57,14 +57,20 @@ const Profile = () => {
 
 
                     {Object.keys(resumeData.socials).map((key)=> (
-                        <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
-
+                        <CustomTimelineItem 
+                        title={key}
+                        text={resumeData.socials[key].text} 
+                        link={resumeData.socials[key].link} />
                     ))}
                 </CustomTimeline>
                
                <div className='button_container' style={{display: 'flex'}}>
-
-               <CustomButton text={'Full Resume'} icon={<GetAppIcon />} />
+                        <CustomButton 
+                        text={'Full Resume'} 
+                        icon={<GetAppIcon />} 
+                        onClick={resumeData.fullResume.link}
+                        />
+                   
                </div>
             </div>
         </div>

@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# **The React Portfolio**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Description:**
+#### **_This is a portfolio created with the React utilizing bootstrap and material-ui."_**
+---
+## **Example Gif:**
+![gif](reactportfolio.gif)
+## **Link to the video: <https://drive.google.com/file/d/1wJGv0r3g2NI6QbW5nPgCU4DGmjoD7B7w/view>**
 
-## Available Scripts
+---
+## **Guidline:**
+### 1. Start: 
+#### -Follow the link: <https://ahnlok.github.io/react-portfolio/>
+### 2. About Me (Home) Page:
+#### -This is the About Me page with the summarized resume, it also acts as the main page.
+### 3. Portfolio Page:
+#### -This is the Portfolio page showcasing my previous projects, I used Grid, Tabs, Card, and Dialog methods from the material-ui to create my Portfolio page format. The use can see 'All' projects, then click: 'Front-End', 'Back-End', and 'Full-Stack' to see the projects in each category.
+### 4. Contact Page:
+#### -This is the Contact Page where the visitor can leave a message or checkout my contact information.
 
-In the project directory, you can run:
+## **Challenges and Future:**
+#### -I was not able to achieve my buttons to function properly (redirecting to the assigned outside links) with 'onClick' function
+#### -Despite I was able to make the gif images of my previous projects to visualize in 'Portfolio Page' on 2-19-21 with the final push on that day, on 2-20-21, all the gif images would not visualize without any change I made.
 
-### `npm start`
+#### -For future, I would like to make it more visually appealing and functional.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Installation**
+### **_git clone: <git@github.com:ahnlok/react-portfolio.git>_**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
+---
+## **GitHub**
+### **_GitHub_**: **<https://github.com/ahnlok/react-portfolio>**
+### **_Deployed Github Site_**: **<https://ahnlok.github.io/react-portfolio/>**
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **Contact**
+### **_E-Mail_**: **<ansungpil1@gmail.com>**
+### **_LinkedIn_**: **<https://www.linkedin.com/in/an-sungpil-95ab8490/>**
+### **_GitHub_**: **<https://github.com/ahnlok>**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## **License**
+### **© Sungpil An 2021**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### _Licensed under the MIT License_
